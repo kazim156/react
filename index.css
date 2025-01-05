@@ -1,0 +1,54 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+}
+
+.status-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
